@@ -3,5 +3,19 @@
         <TargetFrameworks>netstandard1.4;net452</TargetFrameworks>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
       <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+      <PackageId>NUDev.ConsoleMenu</PackageId>
+      <Authors>githubcatw</Authors>
+      <Description>A C# console app menu system.</Description>
+      <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+      <PackageProjectUrl>https://github.com/githubcatw/ConsoleMenu</PackageProjectUrl>
+      <RepositoryUrl>https://github.com/githubcatw/ConsoleMenu</RepositoryUrl>
+      <RepositoryType>GitHub</RepositoryType>
+      <PackageTags>console, menu, nudev, consolemenu</PackageTags>
     </PropertyGroup>
+    <ItemGroup>
+      <None Include="..\LICENSE.txt">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+    </ItemGroup>
 </Project>
